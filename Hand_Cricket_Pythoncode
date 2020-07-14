@@ -58,7 +58,7 @@ def player_batfirst():
              flag1=0
              
              p_score+=runs                                           
-              #p_score keeps track of players score according to the numbers he/she puts.
+              #p_score keeps track of players score according to the numbers he/she puts
                                                                      
              print("Your score is "+str( p_score))                  
              
