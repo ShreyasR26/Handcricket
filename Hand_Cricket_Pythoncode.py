@@ -91,10 +91,13 @@ def player_batfirst():
      else:
         
          o_score+=o_runs
+         #displays opponent's score at the time.
          to_win=final_score-o_score
-         print("Opponent score is: "+str(o_score))
+         #displays number of runs opponent need to win at a given time.
+         print("Opponent score is: "+str(o_score)      
          print("Opponent needs "+str(to_win+1)+" runs to win.")
          if(o_runs==p_bowl):
+         #opponent is out
               print("OUT!!!!!!!!!!!!!!\n")
               o_final_score=o_score-o_runs
               
